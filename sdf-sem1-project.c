@@ -95,7 +95,7 @@ void tictactoe()
         {
             --p;
             printf("Player #%d wins\n", p);
-            sleep(2);
+            sleep(1);
             printf("Do you want to play again? (Y/N):  ");
             scanf(" %c", &ch);
             sleep(1);
@@ -105,7 +105,7 @@ void tictactoe()
         else
         {
             printf("Draw\n");
-            sleep(2);
+            sleep(1);
             printf("Do you want to play again? (Y/N):  ");
             scanf(" %c", &ch);
             sleep(1);
@@ -124,8 +124,8 @@ void Hangman()
         //Take input from player1 for player2 to guess//
         char word[100];
         printf("PLAYER 1:Enter word to guess: ");
-        scanf(" %s", word)
-        sleep(2);
+        scanf(" %s", word);
+        sleep(2); 
         system("cls");
 
         printf("PLAYER 2:Guess the word  ");
